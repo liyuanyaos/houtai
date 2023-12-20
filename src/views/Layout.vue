@@ -6,7 +6,7 @@ onMounted(() => {
 });
 </script>
 <template>
-  <div class="wrapper"></div>
+  <div class="wrapper">11111</div>
 </template>
 <style scoped lang="less">
 .wrapper {
