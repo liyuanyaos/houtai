@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve --open",
-    "build": "vue-cli-service build",
+    "serve": "cross-env TAILWIND_MODE=watch vue-cli-service serve --open",
+    "build": "cross-env TAILWIND_MODE=build vue-cli-service build",
     "lint": "vue-cli-service lint",
     "prepare": "husky install"
   },
@@ -42,6 +42,7 @@
     "@vue/compiler-sfc": "^3.0.0",
     "@vue/eslint-config-prettier": "^6.0.0",
     "commitizen": "^4.2.4",
+    "cross-env": "^7.0.3",
     "cz-conventional-changelog": "^3.3.0",
     "cz-customizable": "^6.3.0",
     "eslint": "^6.7.2",
