@@ -1,5 +1,5 @@
 <template>
-  <h1>feat-yy-first</h1>
+  <h1 class="bg-[red]">feat-yy-first</h1>
   <router-view id="app" />
 </template>
 
