@@ -8,7 +8,7 @@ const formState = reactive({
 const arer_contain = ref(null);
 const onFinish = (values) => {
   console.log("Success:", values);
-  console.log(111);
+  console.log(111, 2222);
 };
 const onFinishFailed = (errorInfo) => {
   console.log("Failed:", errorInfo);
