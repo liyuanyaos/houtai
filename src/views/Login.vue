@@ -20,7 +20,7 @@ const add = () => {
 };
 </script>
 <template>
-  <div class="container">
+  <div class="containers">
     <div class="content">
       <div data-v-37dfd6fc="" class="logo" style="font-size: 20px">
         <svg
@@ -261,7 +261,7 @@ const add = () => {
   </div>
 </template>
 <style scoped lang="less">
-.container {
+.containers {
   display: flex;
   height: 100vh;
   background-image: url(https://gw.alipayobjects.com/zos/rmsportal/TVYTbAXWheQpRcWDaDMu.svg);
@@ -270,7 +270,7 @@ const add = () => {
   background-size: 100%;
 }
 
-.container .content {
+.containers .content {
   position: relative;
   display: flex;
   flex: 1;
@@ -279,7 +279,7 @@ const add = () => {
   // padding-bottom: 40px;
 }
 
-.container .logo {
+.containers .logo {
   position: fixed;
   top: 24px;
   left: 22px;
